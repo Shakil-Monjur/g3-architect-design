@@ -41,6 +41,11 @@
     border-radius: 8px;
 }
 
+.primary-font {
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+
 main{
     max-width: 1440px;
     margin: 0 auto;
@@ -133,6 +138,39 @@ main > section {
 }
 
 
+/* some facts section design */
+.some-facts{
+    margin: 0 auto;
+}
+.some-fact-des{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.some-facts-cards{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    margin-top:100px;
+    margin-bottom: 180px;
+    gap: 124px;
+}
+
+.some-facts-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FF900E;
+    width:241.83px;
+    height: 241.83px;
+    border-radius: 8px;
+    /* text-align: center; */
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
 
 /* Responsive Design */
 /* responsive design for small Device */
@@ -151,6 +189,9 @@ main > section {
     .team-features{
         margin:10px;
     }
-
+    .some-facts-cards{
+        flex-direction: column;
+        gap: 
+    }
 }
 
