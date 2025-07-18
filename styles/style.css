@@ -1,4 +1,6 @@
-
+/* *{
+    margin: 0;
+} */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
@@ -8,3 +10,97 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* shared style */
+.display-flex{
+    display: flex;
+}
+
+/* All color code for the website */
+.dark1{
+
+}
+.dark-2{
+    color: #424242;
+}
+.dark-3{
+    
+}
+
+.bg-color{
+   background-color: rgba(255, 144, 14, 0.1);
+}
+.primary-button{
+    background-color: #FF900E;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 8px;
+}
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* header design */
+/* nav bar style */
+.nav-bar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand{
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+
+.nav-links{
+    gap: 35px;
+}
+
+nav ul li {
+    list-style: none;
+}
+nav ul a{
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+.nav-bar, .banner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.banner-content{
+    max-width: 865px;
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+}
+.banner-button{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color:white;
+}
+.banner-img{
+    width: 100%;
+    margin-bottom: 45px;
+}
+
+
+
+/* Responsive Design */
+/* responsive design for small Device */
+@media screen and (max-width: 576px) {
+    .nav-bar, .nav-links{
+        flex-direction: column;
+    }
+
+}
+
