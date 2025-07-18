@@ -18,13 +18,17 @@
 
 /* All color code for the website */
 .dark1{
+    color:#131313;
 
 }
 .dark-2{
     color: #424242;
 }
 .dark-3{
-    
+    color: #727272;
+}
+.orange{
+    color: #FF900E;
 }
 
 .bg-color{
@@ -93,13 +97,59 @@ nav ul a{
     margin-bottom: 45px;
 }
 
+/* main function design */
+/* team and features related styles */
+main > section {
+    margin-top: 130px;
+}
+.teams{
+    align-items: center;
+    gap: 73px;
+    margin-bottom: 130px;
+}
+
+.team-image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.team-features{
+    max-width: 537px;
+}
+.frature-title{
+    font-weight:500;
+    font-size:2.8rem;
+    margin-bottom:30px;
+}
+#text-1{
+    font-weight:700;
+}
+#text-2{
+    font-weight:700;
+}
+.feature-description{
+    font-weight: 400;
+    font-size:1rem;
+}
+
 
 
 /* Responsive Design */
 /* responsive design for small Device */
 @media screen and (max-width: 576px) {
-    .nav-bar, .nav-links{
+    .nav-bar, 
+    .nav-links,
+    .teams
+    {
         flex-direction: column;
+    }
+
+    .team-image{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .team-features{
+        margin:10px;
     }
 
 }
